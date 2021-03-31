@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "paths": {
+      "*": ["*", "./types/*", "../../*"]
+    },
+    "outDir": "./public/js",
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["jest", "node"]
+  },
+  "include": ["./"],
+  "exclude": [
+    "./node_modules/*",
+    "./.webpack/*",
+    "./.serverless/*",
+    "./babel.config.js"
+  ]
+}

@@ -1,0 +1,7 @@
+:root {
+  --app-green: #32a83a;
+}
+
+#last-deploy {
+  color: var(--app-green);
+}
